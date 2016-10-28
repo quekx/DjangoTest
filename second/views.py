@@ -50,5 +50,5 @@ def article(requset, link):
     res = json.dumps(list)
     return HttpResponse(res)
 
-# if __name__ == '__main__':
-#     article(None, "/article/Food/469542")
+    # if __name__ == '__main__':
+    #     article(None, "/article/Food/469542")
